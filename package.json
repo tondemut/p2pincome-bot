@@ -1,16 +1,28 @@
 {
-  "name": "reddit_bot",
+  "name": "p2pincome",
   "version": "0.0.1",
-  "description": "A reddit bot for peer to peer lending",
+  "description": "A bot for peer to peer income",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "snoostorm": "^0.0.5",
+    "snoowrap": "^1.14.1"
   },
-  "keywords": [
-    "bot",
-    "reddit",
-    "p2p"
-  ],
-  "author": "Vector Grey Incorporated",
-  "license": "ISC"
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-google": "^0.8.0"
+  },
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tondemut/p2pincome-bot"
+  },
+  "author": "Vector Grey Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tondemut/p2pincome-bot/issues"
+  },
+  "homepage": "https://p2pincome.eu/"
 }
